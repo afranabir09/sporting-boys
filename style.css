@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+
+}
+
+.nav{
+    background-color: rgb(255, 73, 103);
+    display: flex;
+}
+
+.nav i{
+    margin-right: 5px;
+    font-size: 30px;
+    color: rgb(255, 217, 0);
+}
+.nav h1{
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    font-family: "Kanit", sans-serif;
+    cursor: pointer;
+}
+.nav h1 span{
+    color: rgb(255, 217, 0);
+}
+
+.but{
+    width: ;
+    text-align: right;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    border-top: 1px solid rgba(128, 128, 128, 0.651) ;
+    margin: auto;
+    display: flex;
+}
+
+.box1{
+    height: 90vh;
+    width: 25%;
+    margin: 5px;
+}
+
+.box2{
+   
+    height: 90vh;
+    width: 75%;
+    border-left: 3px dotted gray;
+    margin: 5px;
+}
+
+.box1 ul{
+    list-style: none;
+    text-align: left;
+}
+.box1 ul li{
+    padding: 10px;
+}
+
+.box1 ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
